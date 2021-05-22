@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CalorieTracker</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="nutrit">NUTRIT</string>
+    <string name="logout">Logout</string>
+    <string name="profile">PROFILE</string>
+    <string name="tracker">TRACKER</string>
+    <string name="fitness">FITNESS</string>
+
+</resources>

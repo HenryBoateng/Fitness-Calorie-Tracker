@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient2"
+        tools:context=".ProfileActivity">
+
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorAccent"
+            app:itemIconTint="#fff"
+            app:itemTextColor="#fff"
+            app:menu="@menu/menu_navigation" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/profile"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+
+
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="86dp"
+        android:background="@drawable/gradient2"
+        android:layout_marginLeft="-5dp">
+
+
+        <RelativeLayout
+            android:id="@+id/imgUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/circle"
+                android:padding="4dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/profile_icon" />
+
+
+        </RelativeLayout>
+
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgUser"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-light"
+            android:text="Profile name"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgUser"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginRight="96dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Email Address"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgUser"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="212dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginRight="96dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Phone Number"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
